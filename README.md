@@ -81,15 +81,33 @@ npm install -g @sanity/cli
 
 ### Frontend Setup
 
-1. **Clone the repository**:
+### 1. Clone the repository:
 
    ```bash
    git clone https://github.com/jatinjangra001/Pinterest_Clone.git
    cd Pinterest_Clone
+```
+
+### 2. Environment Variables
+
+Create a `.env` file in the `frontend` directory and add the following environment variables:
+
+```plaintext
+REACT_APP_GOOGLE_API_TOKEN=<your_google_api_token>
+REACT_APP_SANITY_TOKEN=<your_sanity_token>
+REACT_APP_SANITY_PROJECT_ID=<your_sanity_project_id>
+```
+### Instructions:
+#### 1. Google API Token:
+Obtain your Google API token from the Google Developer Console.
+Replace <your_google_api_token> with your actual token.
+
+#### 2. Sanity Token and Project ID:
+Obtain your Sanity API token and project ID from your Sanity project dashboard.
+Replace <your_sanity_token> and <your_sanity_project_id> with your actual values.
+Note: Never share actual API tokens or sensitive information in public repositories. Always keep your environment variables secure and private.
 
 ## Dependencies
-
-### Frontend
 
 #### Core Dependencies
 
